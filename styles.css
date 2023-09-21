@@ -1,1 +1,47 @@
-/* your code here */
+ body, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        /* Define styles for the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Style the navigation links */
+        footer ul {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        footer ul li {
+            margin: 0 15px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Style the contact number */
+        .contact-number {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Style the social media icons */
+        .media-icons {
+            margin-top: 20px;
+        }
+
+        .media-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 24px;
+            color: #fff;
+        }
